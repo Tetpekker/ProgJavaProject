@@ -1,0 +1,17 @@
+package com.gmail.tetpekker;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double fuelPrice = 27.5;
+		double fuelR = 9.8;
+		int pathLength = 217;
+		double sum;
+		
+		sum = fuelPrice * fuelR/100.0 * pathLength;
+		
+		System.out.println("Total sum = " + sum + " UAH");
+	}
+
+}
