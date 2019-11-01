@@ -10,8 +10,6 @@ public class HomeworkTwo {
 		turnArray();
 		}
 	public static void turnArray() {
-			Scanner sc = new Scanner(System.in);
-			int n;
 			int degrees = 90;
 
 			int[][] array = new int[6][6];
@@ -42,6 +40,5 @@ public class HomeworkTwo {
 				}
 				System.out.println();
 			}
-			sc.close();
 		}
 }
