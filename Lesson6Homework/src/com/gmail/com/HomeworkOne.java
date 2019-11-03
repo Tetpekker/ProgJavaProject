@@ -7,12 +7,12 @@ public class HomeworkOne {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
+
 		int[] numbersArray = new int[10];
 		for (int i = 0; i < numbersArray.length; i++) {
 			numbersArray[i] = (int) (Math.random() * 10);
 		}
-		int randomNumber = (int)(Math.random() * 10);
+		int randomNumber = (int) (Math.random() * 10);
 		System.out.println(Arrays.toString(numbersArray));
 		System.out.println(maxValue(numbersArray));
 		System.out.println(concat(randomNumber, 2.8, "Sum of these numbers is: "));
@@ -37,7 +37,7 @@ public class HomeworkOne {
 	public static String concat(int numbInt, double numbDoub, String text) {
 		return text + (numbInt + numbDoub);
 	}
-	
+
 	public static void drawRectangle(int width, int height) {
 		for (int i = 0; i < height; i++) {
 			System.out.print("*");
@@ -60,18 +60,18 @@ public class HomeworkOne {
 		}
 		System.out.println();
 	}
-	
+
 	public static int findNumber(int numbersArray[], int randomNumber) {
-		for (int i=0; i<numbersArray.length; i++) {
-			if(numbersArray[i] == randomNumber) {
-				return i; 
+		for (int i = 0; i < numbersArray.length; i++) {
+			if (numbersArray[i] == randomNumber) {
+				return i;
 			} else {
 				i++;
 			}
 		}
 		return -1;
 	}
-	
+
 	public static int countWords(String randomSentence) {
 		int wordsNumber = 0;
 
@@ -81,6 +81,6 @@ public class HomeworkOne {
 
 			}
 		}
-		return wordsNumber+1;
-} 
+		return wordsNumber + 1;
+	}
 }
