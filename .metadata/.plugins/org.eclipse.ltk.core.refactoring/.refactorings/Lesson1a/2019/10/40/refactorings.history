@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename type &apos;com.gmail.tetpekker.Main&apos; to &apos;HelloWorld&apos;&#x0D;&#x0A;- Original project: &apos;Lesson1a&apos;&#x0D;&#x0A;- Original element: &apos;com.gmail.tetpekker.Main&apos;&#x0D;&#x0A;- Renamed element: &apos;com.gmail.tetpekker.HelloWorld&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Main&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.gmail.tetpekker{Main.java[Main" matchStrategy="1" name="HelloWorld" qualified="false" references="true" similarDeclarations="false" stamp="1570285093922" textual="false" version="1.0"/>
-</session>

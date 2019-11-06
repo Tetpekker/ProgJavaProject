@@ -9,7 +9,7 @@ public class HomeworkOne {
 		drawWallpaper();
 		countFactorial();
 		multiplyOnFive();
-		drawRectangle();
+		drawTriangle();
 	}
 
 	public static void drawWallpaper() {
@@ -59,7 +59,7 @@ public class HomeworkOne {
 		}
 	}
 	
-	public static void drawRectangle() {
+	public static void drawTriangle() {
 		Scanner scan = new Scanner(System.in);
 		
 		System.out.println("Enter your value for the height");
