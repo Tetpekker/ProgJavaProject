@@ -17,13 +17,13 @@ public class HomeworkOne {
 		int[] array = new int[] {1, 2, 3, 4, 5};
 		
 		//Task 1
-		System.out.println("The milliseconds-difference between current date and 3 months ago is " + getMilliseconds());
+		//System.out.println("The milliseconds-difference between current date and 3 months ago is " + getMilliseconds());
 		//Task 2
-		System.out.println(arraysToStringForIntegerArray(array));
+		//System.out.println(arraysToStringForIntegerArray(array));
 		//Task 3
-		System.out.println(getTenthFromBinary());  //For some reason currently works wrong...
+		System.out.println(getDecimalFromBinary());  //For some reason currently works wrong...
 		//Task 4
-		printTenPIs();  //I guess the implementation is incorrect :)
+		//printTenPIs();  //I guess the implementation is incorrect :)
 	}
 
 	public static long getMilliseconds() {
@@ -48,19 +48,12 @@ public class HomeworkOne {
 		return sb.toString();
 	}
 	
-	public static int getTenthFromBinary() {
-		Scanner scan = new Scanner(System.in);
-		System.out.println("Please enter your binary value");
-		int binary = scan.nextInt();
-		int multiplier = 1;
-	    int[] digits = Integer.toString(binary).chars().map(c -> c-'0').toArray();  
-	    int[] revertedDigits = IntStream.rangeClosed(1, digits.length).map(i -> digits[digits.length-i]).toArray();;
-	    for(int digit : revertedDigits) {
-	    	digit = digit * multiplier;
-	    	multiplier *= 2;
-	    }
-	    return IntStream.of(revertedDigits).sum();
-	}
+	public static int getDecimalFromBinary() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Please enter your binary value");
+        String userInput = scanner.nextLine();
+        return Integer.parseInt(userInput, 2);
+    }
 	
 	public static void printTenPIs() {
 		

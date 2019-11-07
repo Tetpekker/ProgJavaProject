@@ -7,7 +7,8 @@ public class HomeworkOne {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		
+		//Task 1
 		int[] numbersArray = new int[10];
 		for (int i = 0; i < numbersArray.length; i++) {
 			numbersArray[i] = (int) (Math.random() * 10);
@@ -15,9 +16,17 @@ public class HomeworkOne {
 		int randomNumber = (int) (Math.random() * 10);
 		System.out.println(Arrays.toString(numbersArray));
 		System.out.println(maxValue(numbersArray));
+		
+		//Task 2
 		System.out.println(concat(randomNumber, 2.8, "Sum of these numbers is: "));
+		
+		//Task 3
 		drawRectangle(8, randomNumber);
+		
+		//Task 4
 		System.out.println(findNumber(numbersArray, randomNumber));
+		
+		//Task 1
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Please enter your sentence");
 		String randomSentence = scan.nextLine();
