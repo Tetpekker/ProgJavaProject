@@ -17,13 +17,13 @@ public class HomeworkOne {
 		int[] array = new int[] {1, 2, 3, 4, 5};
 		
 		//Task 1
-		//System.out.println("The milliseconds-difference between current date and 3 months ago is " + getMilliseconds());
+		System.out.println("The milliseconds-difference between current date and 3 months ago is " + getMilliseconds());
 		//Task 2
-		//System.out.println(arraysToStringForIntegerArray(array));
+		System.out.println(arraysToStringForIntegerArray(array));
 		//Task 3
-		System.out.println(getDecimalFromBinary());  //For some reason currently works wrong...
+		System.out.println(getDecimalFromBinary());
 		//Task 4
-		//printTenPIs();  //I guess the implementation is incorrect :)
+		printTenPIs();  //I guess the implementation is incorrect :)
 	}
 
 	public static long getMilliseconds() {
